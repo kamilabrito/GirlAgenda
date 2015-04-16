@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Girl Agenda</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="information">INFORMATION</string>
+    <string name="settings">SETTINGS</string>
+    <string name="datebeginning">Beginning Date</string>
+    <string name="datefinish">Finish Date</string>
+    <string name="time">Time</string>
+    <string name="color">Color</string>
+    <string name="sound">Sound</string>
+    <string name="remove">REMOVE</string>
+    <string name="continuebutton">CONTINUE</string>
+    <string name="save">SAVE</string>
+    <string name="register">REGISTER</string>
+    <string name="editalarm">EDIT ALARM</string>
+    <string name="contraception">CONTRACEPTIVE METHODS</string>
+    <string name="patientname">Patient Name</string>
+    <string name="medicinename">Medicine Name</string>
+    <string name="grey">Grey</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="pink">Pink</string>
+    <string name="noalarmscreated">There are no alarms!</string>
+    <string name="createalarm">CREATE ALARM</string>
+    <string name="missinginfo">Missing information!</string>
+    <string name="calcelalarm">CANCEL ALARM</string>
+    <string name="about">ABOUT</string>
+    <string name="about_project">This application was designed and developed by young people who have no experience in software development. This is a BETA version and the application is still in development.
+
+Girl Agenda is an application that aims to inform on the main contraceptive methods and help your users not forget to take your birth control.
+Girl Agenda was designed by four young students of the second year of high school girls who live in a reality where teenage pregnancy is common in your community. They expect the popularity of the application help your community of girls to prevent and avoid unwanted pregnancy.
+
+The development of this application was encouraged by the project Technovation Challenge http://www.technovationchallenge.org/
+Application was developed for participation in Technovation Challenge contest.
+
+Product developed in partnership with: kbrtzdevelopment - kbrtz.com</string>
+    <string name="twitter">Twitter: @girl_agenda </string>
+    <string name="diu_title">IUD (intrauterine device) and SIU (medicated IUD or hormonal IUD)</string>
+    <string name="diu_content">Prevent the passage of sperm and not allow his encounter with the egg. The IUD is made of copper and does not release hormone, as the IUS releases hormones that can generate effects such as reduction of the flow mestrual.podem last from 5 to 10 years depending on the product.</string>
+    <string name="injection_title">Contraceptive injection</string>
+    <string name="injection_content">Has in its formula the combination of progesterone or association of estrogens that reduce ovulation, the application can be monthly or quarterly. Generates a number of side effects such as reduction of menstrual flow and headaches. It is an effective method with only 01 percent to 06 percent failure rate for monthly injection and 03 percent for quarterly injection. Must be referred by a gynecologist.</string>
+    <string name="ring_title">Vaginal Ring</string>
+    <string name="ring_content">The vaginal ring is a small flexible ring of smooth, non-porous, non-absorbent, containing etonogestrel and ethinyl estradiol entering the blood stream and act by inhibiting ovulation. The womans fertility returns as soon as the use is suspended, when used correctly can reduce the chances of pregnancy by up to 99 percent;</string>
+    <string name="condom_title">Condom</string>
+    <string name="condom_content">Prevents the rise of sperm to the uterus, also helps in prevention of STDs such as HIV and HPV. One of the most effective and presents a rate of 90 to 95 percent.is not contraindicated and should be used in all sexual relations.</string>
+    <string name="sterilization_title">Sterilization</string>
+    <string name="sterilization_content">Tubal ligation or Horns is a surgery for definitive voluntary sterilization, in which the womans fallopian tubes are tied or cut, preventing the egg and sperm meet. Indicated only for women over 25 years.</string>
+    <string name="vasectomy_title">Vasectomy</string>
+    <string name="vasectomy_content">It is a small surgery done on the scrotum, which is cut the channel leading the sperm to the other glands that produce the male sperm. After the vasectomy ejaculation is still correct so that without the presence of sperm. Torma not the impotent man and there is no loss of libido.</string>
+    <string name="diaphragm_title">Diaphragm</string>
+    <string name="diaphragm_content">It is a flexible ring enclosed by a rubber that prevent the entry of sperm into the uterus. Features a 10 percent chance of failure so it is recommended to use spermicide assembly for more effective, has no side effects. It is indicated for women who have had sexual relations and not have infection in the cervix, vagina and urinary.</string>
+    <string name="facebook">Facebook: girlagenda </string>
+    <string name="gmail">Gmail: girl.agenda.mao@gmail.com </string>
+    <string name="site">Site: http://www.i-m.mx/girlagenda/GirlAgenda/ </string>
+    <string name="apoio">Apoio </string>
+    <string name="source">Source: http://www.gineco.com.br/</string>
+    
+    
+     
+     
+     <string name="clicktosetdate">Click to set date</string>
+     <string name="clicktosettime">Click to set time</string>
+
+</resources>

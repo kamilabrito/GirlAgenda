@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Girl Agenda</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="on">Ligado</string>
+    <string name="off">Desligado</string>
+    <string name="information">INFORMAÇÕES</string>
+    <string name="settings">CONFIGURAÇÕES</string>
+    <string name="datebeginning">Data de Início</string>
+    <string name="datefinish">Data de Término</string>
+    <string name="time">Horário</string>
+    <string name="color">Cor</string>
+    <string name="sound">Som</string>
+    <string name="remove">EXCLUIR</string>
+    <string name="continuebutton">CONTINUAR</string>
+    <string name="save">SALVAR</string>
+    <string name="register">CADASTRO</string>
+    <string name="editalarm">EDITAR ALARME</string>
+    <string name="contraception">MÉTODOS CONTRACEPTIVOS</string>
+    <string name="patientname">Nome da Paciente</string>
+    <string name="medicinename">Nome do Remédio</string>
+    <string name="grey">Cinza</string>
+    <string name="blue">Azul</string>
+    <string name="green">Verde</string>
+    <string name="yellow">Amarelo</string>
+    <string name="pink">Rosa</string>
+    <string name="noalarmscreated">Não existem alarmes criados!</string>
+    <string name="createalarm">CRIAR ALARME</string>
+    <string name="missinginfo">Informações incompletas!</string>
+    <string name="calcelalarm">CANCELAR ALARME</string>
+    <string name="about">SOBRE</string>
+     <string name="about_project">Este aplicativo foi idealizado e desenvolvido por jovens que não tem experiência em desenvolvimento de software. Esta é uma versão BETA e o aplicativo ainda se encontra em desenvolvimento.
+
+Girl Agenda é um aplicativo que tem o objetivo de informar sobre os principais métodos contraceptivos e ajudar seus usuários a não esquecerem de tomar seu anticoncepcional.
+Girl Agenda foi idealizado por quatro jovens garotas estudantes do segundo ano do ensino médio que vivem em uma realidade onde gravidez na adolescência é algo comum em sua comunidade. Elas esperam que a popularização do aplicativo ajude as garotas de sua comunidade a se prevenir e evitar uma gravidez indesejada.
+
+O desenvolvimento deste aplicativo foi incentivado pelo projeto Technovation Challenge http://www.technovationchallenge.org/
+Aplicativo foi desenvolvido para participação no concurso Technovation Challenge. 
+
+Produto desenvolvido em parceria com: kbrtzdevelopment - kbrtz.com</string>
+    <string name="diu_title">DIU (dispositivo intrauterino) e SIU(DIU medicado ou DIU hormonal)</string>
+    <string name="diu_content">Impedem a passagem de espermatozoides e não permitem seu encontro com o óvulo. O DIU é feito de cobre e não libera hormônio, já o SIU libera hormônios que podem gerar efeitos como a reducao do fluxo mestrual.podem durar de 5 a 10 anos dependendo do produto.</string>
+    <string name="injection_title">Injecao anticoncepcional</string>
+    <string name="injection_content">Possui em sua fórmula a combinacao de progesterona ou associacao de estrogenios que reduzem a ovulacao, a aplicacao pode ser mensal ou trimestral. Gera uma série de efeitos colaterais como a reducao do fluxo mestrual e dores de cabeca. É um método eficaz com apenas 0,1 a 0,6 porcento de falha para injecao mensal e de 0,3 pocento para injecao trimestral. Deve ser indicado por médico ginecologista.</string>
+    <string name="ring_title">Anel Vaginal</string>
+    <string name="ring_content">O anel vaginal é um pequeno anel flexível de superfície lisa, não porosa e não absorvente, que contém etonogestrel e etinilestradiol que entram na corrente sanguínea e atuam inibindo a ovulacao. A fertilidade da mulher volta assim que o uso é suspenso, quando usado corretamente pode reduzir as chances de gravidez em até 99&#x0025;.</string>
+    <string name="condom_title">Camisinha</string>
+    <string name="condom_content">Impede a subida do espermatozoide ao útero, também ajuda na prevencao de DSTs como HIV e HPV. É um dos mais eficazes e apresenta uma taxa de 90 a 95 &#x0025;.não é contraindicado e deve ser usado em todas as relacoes sexuais.</string>
+    <string name="sterilization_title">Laqueadura</string>
+    <string name="sterilization_content">Ligadura de Trompas ou Laqueadura é uma cirurgia para a esterilização voluntária definitiva, na qual as trompas da mulher são amarradas ou cortadas, evitando que o óvulo e os espermatozoides se encontrem. Indicada apenas para mulheres acima de 25 anos.</string>
+    <string name="vasectomy_title">Vasectomia</string>
+    <string name="vasectomy_content">É uma pequena cirurgia feita em cima do escroto, na qual é cortado o canal que leva os espermatozoides até as outras glandulas que produzem o esperma masculino. Após a vasectomia a ejaculacao continua normal so que sem a presenca de espermatozoides. Não torma o homem impotente e não há perda da libido.</string>
+    <string name="diaphragm_title">Diafragma</string>
+    <string name="diaphragm_content">É um anel flexível envolvido por uma borracha que impede a entrada dos espermatozoides no útero. Apresenta uma chance 10% de falha por isso recomenda-se o uso em conjunto do espermicida  para maior eficácia, não possui efeitos colaterais. É indicado para mulheres que já tiveram relacoes sexuais e não possuam infeccao no colo do útero, da vagina e urinária.</string>   <string name="apoio">Suporting </string>
+   <string name="source">Fonte: http://www.gineco.com.br/</string>
+   
+   <string name="clicktosetdate">Click para escolher data</string>
+   <string name="clicktosettime">Click para escolher a hora</string>
+
+
+</resources>

@@ -1,0 +1,245 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:text="@string/register"
+            android:textColor="@color/txt_color" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText_patients_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/patientname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText_medicine_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/medicinename"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separator_green"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/txt_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/settings"
+                android:textColor="@color/txt_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:id="@+id/linear_date_beg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/datebeginning"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:id="@+id/textView_date_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_date_fin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/datefinish"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:id="@+id/textView_date_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/time"
+                android:textColor="@color/txt_color" />
+
+            <TextView
+                android:id="@+id/textView_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="10dp"
+                android:text="@string/color"
+                android:textColor="@color/txt_color" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio_grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grey"
+                    android:textColor="@color/grey_square" />
+
+                <RadioButton
+                    android:id="@+id/radio_blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blue"
+                    android:textColor="@color/blue_square" />
+
+                <RadioButton
+                    android:id="@+id/radio_green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/green"
+                    android:textColor="@color/green_square" />
+
+                <RadioButton
+                    android:id="@+id/radio_yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yellow"
+                    android:textColor="@color/yellow_square" />
+
+                <RadioButton
+                    android:id="@+id/radio_pink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pink"
+                    android:textColor="@color/txt_color" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/sound"
+                android:textColor="@color/txt_color" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButton_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/on" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/off" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:text="@string/continuebutton"
+            android:textColor="@color/txt_color" />
+    </LinearLayout>
+
+</ScrollView>

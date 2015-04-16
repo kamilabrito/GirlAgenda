@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.girlagenda.girlagendaandroidapp"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+     <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/logotipo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        
+        <activity
+            android:name="com.girlagenda.girlagendaandroidapp.ActivityRegister"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.girlagenda.girlagendaandroidapp.ActivityShowAlert"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.purplebrain.adbuddiz.sdk.AdBuddizActivity" 
+               android:theme="@android:style/Theme.Translucent" />
+        
+        <activity
+            android:name="com.girlagenda.girlagendaandroidapp.ActivityConfirmation"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.girlagenda.girlagendaandroidapp.ActivityAbout"
+            android:label="@string/app_name" >
+        </activity>
+        
+        
+        <activity
+            android:name="com.girlagenda.girlagendaandroidapp.ActivityMethods"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <receiver android:name="com.girlagenda.girlagendaandroidapp.BroadcastRestartAlarm">
+		    <intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter>
+		</receiver> 
+		
+        <receiver android:name="com.girlagenda.girlagendaandroidapp.AlarmReceiver"></receiver>    
+    </application>
+
+</manifest>

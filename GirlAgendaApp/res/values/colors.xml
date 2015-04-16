@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="txt_color">#e88484</color>
+	<color name="activ">#5c755e</color>
+	<color name="inactiv">#999999</color>
+	<color name="bkg2">#ffffff</color>
+	<color name="bkg">#ffffff</color>
+	<color name="grey_square">#BFBBBD</color>
+	<color name="blue_square">#77DAFF</color>
+	<color name="green_square">#6ABF88</color>
+	<color name="yellow_square">#FFE760</color>
+	
+</resources>

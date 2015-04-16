@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/alert_patient_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="Hi,Sonia!"
+            android:textColor="@color/txt_color"
+            android:textSize="20dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" >
+
+            <View
+                android:id="@+id/image"
+                android:layout_width="230dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:background="@color/yellow_square" />
+
+            <LinearLayout
+                android:id="@+id/alarm_settings_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/alert_medicine_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Selene"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/alert_medicine_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="18:30"
+                    android:textSize="40dp" />
+
+                <TextView
+                    android:id="@+id/alert_medicine_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="18/10/2015"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/no_alarm_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/noalarmscreated"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/button_create_alarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:text="@string/createalarm"
+                    android:textColor="@color/txt_color" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/button_edit_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:text="@string/editalarm"
+            android:textColor="@color/txt_color" />
+        
+        <Button
+            android:id="@+id/button_cancel_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:text="@string/calcelalarm"
+            android:textColor="@color/txt_color" />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/button_methods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/contraception"
+            android:textColor="@color/txt_color"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:text="@string/about"
+            android:textColor="@color/txt_color"/>
+
+    </LinearLayout>
+
+</ScrollView>
